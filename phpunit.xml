@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="test-bootstrap.php"
+         backupGlobals="false"
+         processIsolation="false"
+         colors="true">
+    <testsuites>
+        <testsuite name="InSidedImageThreadTests">
+            <directory>./InSided/ImageThread</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/InSided/ImageThread</directory>
+            <exclude>
+                <directory suffix=".ini">src/InSided/ImageThread/Views</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

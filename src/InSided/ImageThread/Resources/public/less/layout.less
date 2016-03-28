@@ -1,0 +1,20 @@
+@import "global.less";
+
+#middle_outer_container {
+    min-height: @wide-screen-min-height;
+    width: @outer-container-width;
+    @media (max-width: @landscape-tablet-width) {
+        min-height: @landscape-tablet-min-height;
+        @media (max-width: @vertical-tablet-width) {
+            min-height: @vertical-tablet-min-height;
+        }
+    }
+    #inner_container {
+        margin: auto;
+        margin-top: 10px;
+        width: @laptop-width;
+        @media (max-width: @laptop-width) {
+            width: @mobile-inner-container-width;
+        }
+    }
+}

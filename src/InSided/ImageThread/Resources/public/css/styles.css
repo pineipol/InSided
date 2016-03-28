@@ -1,0 +1,190 @@
+/* Paths */
+/* Color variables */
+/* Sizing constants */
+body {
+  margin: 0;
+  font: 14px Verdana;
+}
+div {
+  box-sizing: border-box;
+}
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+#middle_outer_container {
+  min-height: 910px;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  #middle_outer_container {
+    min-height: 700px;
+  }
+}
+@media (max-width: 800px) and (max-width: 600px) {
+  #middle_outer_container {
+    min-height: 500px;
+  }
+}
+#middle_outer_container #inner_container {
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
+}
+@media (max-width: 1000px) {
+  #middle_outer_container #inner_container {
+    width: 95%;
+  }
+}
+#header_outer_container {
+  margin-top: 10px;
+  width: 100%;
+}
+#header_outer_container #header_inner_container {
+  border: 1px solid blue;
+  border-radius: 4px;
+  display: table;
+  height: 50px;
+  margin: auto;
+  padding: 5px;
+  width: 1000px;
+}
+@media (max-width: 1000px) {
+  #header_outer_container #header_inner_container {
+    width: 95%;
+  }
+}
+#header_outer_container #header_inner_container .third_container {
+  display: table-cell;
+  width: 33%;
+}
+@media (max-width: 600px) {
+  #header_outer_container #header_inner_container .third_container {
+    display: block;
+    width: 100%;
+  }
+}
+#header_outer_container #header_inner_container .third_container #posts_counter_title {
+  display: inline-block;
+  width: 50%;
+}
+#header_outer_container #header_inner_container .third_container #export_button {
+  border: 1px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+#header_outer_container #header_inner_container .third_container #views_counter_title {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  #header_outer_container #header_inner_container .third_container #views_counter_title {
+    text-align: left;
+  }
+}
+#reply-box-container {
+  border: 1px solid blue;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+#reply-box-container .flash-messages-container {
+  background-color: #FFDA99;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+  width: 50%;
+}
+@media (max-width: 600px) {
+  #reply-box-container .flash-messages-container {
+    width: 95%;
+  }
+}
+#reply-box-container .input-container {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 50%;
+}
+@media (max-width: 600px) {
+  #reply-box-container .input-container {
+    width: 95%;
+  }
+}
+#reply-box-container .input-container .image-title {
+  width: 95%;
+}
+#reply-box-container .input-container .submit-button {
+  margin: auto;
+  width: 100px;
+}
+#reply-box-container .upload-container {
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+}
+@media (max-width: 600px) {
+  #reply-box-container .upload-container {
+    width: 95%;
+  }
+}
+#reply-box-container .upload-container .image-button {
+  width: 95%;
+}
+#post-list-container {
+  width: 100%;
+}
+#post-list-container .post-container {
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#post-list-container .post-container .post-title-container {
+  height: 30px;
+  margin: auto;
+  padding-top: 5px;
+  text-align: center;
+  width: 50%;
+}
+@media (max-width: 600px) {
+  #post-list-container .post-container .post-title-container {
+    width: 95%;
+  }
+}
+#post-list-container .post-container .post-image-container {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+#post-list-container .post-container .post-image-container .post-image {
+  border: 1px solid #000000;
+  width: auto;
+}
+@media (max-width: 600px) {
+  #post-list-container .post-container .post-image-container .post-image {
+    max-width: 95%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
