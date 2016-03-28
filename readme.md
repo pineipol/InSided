@@ -1,4 +1,4 @@
-# InSided Assesment
+# InSided Assessment
 
 ## Introduction
 
