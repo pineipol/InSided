@@ -1,5 +1,6 @@
 # InSided Assessment
 
+
 ## Introduction
 
 The idea behind the test was to be able to develop something that really works and
@@ -18,6 +19,7 @@ my develop skills and my architectural mindset.
 
 Of course, I choose number two, so this assesment has taken me "a little more"
 than expected.
+
 
 ## Architecture
 
@@ -40,16 +42,23 @@ I decided to use MySQL as database forthe execution stack and SQLite "In memory"
 to accelerate test execution.
 For the automatic tests I'm also using DoctrineFixtureBundle to load fixtures.
 
+
+## Testing
+
+Becuse of the quite big quantity of code developed I decided try to focus on
+generate a nice sample of testing suite more then get high coverage percent.
+
+I coded tests for the class PostManager and I develop a Mock for FileManager
+like if it was an external dependency (despite I know is not a best practice
+I thought it would be a complete example).
+
+
 ## Assesment scope
 
 Because of my choice I have dedicated a lot more time than expected and I wasn't
 be able to finish all "extra points" features.
 
 This is the assesment points checklist:
-YES
-NO
-
-
 
 YES - Initially only the Top bar and the Reply box are visible.
 
@@ -97,4 +106,3 @@ NO  - Bonus points: The API
 
 We have just signed up a big enterprise customer. They want to integrate the ImageThread app with
 their site. Design an API to be able to: create posts, retrieve individual posts, perform a bulk export.
-
