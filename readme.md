@@ -11,10 +11,11 @@ object oriented code and some tests for it. In this case it was neccesary to bui
 all the environment and make it work.
 
 Because of that I had two options.
-1. Use an open source framework like Symfony which gives me all the environment
+
+- Use an open source framework like Symfony which gives me all the environment
 working and focus on my business logic;
 
-2. Go into problems and develop a complete micro framework to be able to show also
+- Go into problems and develop a complete micro framework to be able to show also
 my develop skills and my architectural mindset.
 
 Of course, I choose number two, so this assesment has taken me "a little more"
