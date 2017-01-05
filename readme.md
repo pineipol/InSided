@@ -3,11 +3,11 @@
 
 ## Introduction
 
-The idea behind the test was to be able to develop something that really works and
-deploy it into a Cloud Server so everybody can easily see it.
+The idea behind the assessment was to be able to develop something that really works 
+and deploy it into a Cloud Server so everybody can easily see it.
 
-Problem in this case is that is not the typical assesment in which you deploy some
-object oriented code and some tests for it. In this case it was neccesary to build
+Problem in this case is that is not the typical assessment in which you deploy some
+object oriented code and some tests for it. In this case it was necessary to build
 all the environment and make it work.
 
 Because of that I had two options.
@@ -18,7 +18,7 @@ working and focus on my business logic;
 - Go into problems and develop a complete micro framework to be able to show also
 my develop skills and my architectural mindset.
 
-Of course, I choose number two, so this assesment has taken me "a little more"
+Of course, I choose number two, so this assessment has taken me "a little more"
 than expected.
 
 
@@ -30,23 +30,23 @@ because I think is one of the most efficient ones.
 Please, pay attention to project structure because I think is one of project
 biggest points.
 
-My framework implements a FrontController class that plays the router role. Also
-it inject request results into a main layout.
+My framework implements a FrontController class that plays the router role. It 
+also injects request results into a main layout.
 
 Like Symfony, I put the index.php file one level into root dir to avoid direct
 access to php resources.
 
-My project has two boostrap files, one for the execution environment and other
+My project has two bootstrap files, one for the execution environment and other
 one for the testing part.
 
-I decided to use MySQL as database forthe execution stack and SQLite "In memory"
+I decided to use MySQL as database for the execution stack and SQLite "In memory"
 to accelerate test execution.
 For the automatic tests I'm also using DoctrineFixtureBundle to load fixtures.
 
 
 ## Testing
 
-Becuse of the quite big quantity of code developed I decided try to focus on
+Because of the quite big quantity of code developed I decided try to focus on
 generate a nice sample of testing suite more then get high coverage percent.
 
 I coded tests for the class PostManager and I develop a Mock for FileManager

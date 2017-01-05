@@ -9,7 +9,7 @@ namespace InSided\ImageThread\Service;
 class FileManager
 {
     /**
-     * @var arrya Image accepted formats and callbacks to be used for every one of them
+     * @var array Image accepted formats and callbacks to be used for every one of them
      */
     protected $acceptedImageFormats = [
         'image/gif' => [

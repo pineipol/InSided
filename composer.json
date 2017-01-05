@@ -1,8 +1,8 @@
 {
     "autoload": {
-        "psr-0": {
-            "" : "src/",
-            "App" : "app/"
+        "psr-4": {
+            "InSided\\": "src/InSided",
+            "Application\\": "app/Application"
         }
     },
     "require": {
@@ -11,9 +11,9 @@
         "luchaninov/csv-file-loader": "1.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.8.*",
-        "phpunit/dbunit": ">=1.2",
-        "doctrine/doctrine-fixtures-bundle": "dev-master",
-        "doctrine/data-fixtures": "@dev"
+        "phpunit/phpunit": "^5.7",
+        "phpunit/dbunit": "^2.0",
+        "doctrine/doctrine-fixtures-bundle": "^2.3",
+        "doctrine/data-fixtures": "^1.2"
     }
 }
